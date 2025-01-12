@@ -49,9 +49,3 @@ def scrape(productName):
     with open('rawtext.txt', 'w') as file:
         file.write(str(soup))
     
-    
-
-    '''
-    cards = soup.find_all('div', {'data-asin': True, 'data-component-type': 's-search-result'})
-    print(len(cards))
-    '''
